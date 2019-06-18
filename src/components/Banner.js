@@ -1,6 +1,7 @@
 import React from 'react'
 import Dropdown from 'react-dropdown'
 import 'react-dropdown/style.css'
+import { Link } from 'gatsby'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 const services = [
@@ -38,8 +39,8 @@ const Banner = (props) => (
                     name="zip"
                     placeholder="Zipcode"
                      /></li>    
-                     <li><div classname="selector"><Dropdown options={services} onChange={console.log("CLick")}  placeholder="Select an option" /></div></li>         
-                    <li><a href="#one" className="button next scrolly">Book Appointment</a></li>
+                     <li><div className="selector"><Dropdown options={services} onChange={console.log("CLick")}  placeholder="Select an option" /></div></li>         
+                    <li><Link to="/enquiry"><a className="button next scrolly">Book Appointment</a></Link></li>
                 </ul>
                 </form>
             </div>

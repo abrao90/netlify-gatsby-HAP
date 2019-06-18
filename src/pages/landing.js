@@ -17,7 +17,7 @@ const Landing = (props) => (
 
         <BannerLanding />
 
-        <div id="main">
+        <div id="contact">
             <section id="one">
                 <div className="inner">
                     <header className="major">
