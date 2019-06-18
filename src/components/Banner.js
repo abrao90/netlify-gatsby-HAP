@@ -1,6 +1,7 @@
 import React from 'react'
-import Select from 'react-select';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Dropdown from 'react-dropdown'
+import 'react-dropdown/style.css'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const services = [
     { label: "Untersucheng", value: 1 },
@@ -10,7 +11,7 @@ const services = [
     { label: "Andere", value: 5 },
   ];
 
- const select = {}
+ 
 
 const Banner = (props) => (
     <section id="banner" className="major">
@@ -37,7 +38,7 @@ const Banner = (props) => (
                     name="zip"
                     placeholder="Zipcode"
                      /></li>    
-                     <li><div classname="selector"><Select style={{width: `1000px`}} options={services} placeholder="Services"/></div></li>          
+                     <li><div classname="selector"><Dropdown options={services} onChange={console.log("CLick")}  placeholder="Select an option" /></div></li>         
                     <li><a href="#one" className="button next scrolly">Book Appointment</a></li>
                 </ul>
                 </form>
