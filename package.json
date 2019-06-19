@@ -4,20 +4,28 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "@material-ui/styles": "^4.1.1",
     "bootstrap": "^4.3.1",
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-material-ui": "^2.0.1",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sass": "^2.0.11",
     "node-sass": "^4.11.0",
-    "react": "^16.8.5",
+    "react": "^16.8.6",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.8.5",
+    "react-dom": "^16.8.6",
     "react-dropdown": "^1.6.4",
     "react-helmet": "^5.2.0",
     "react-netlify-form": "^2.1.5",
-    "react-select": "^3.0.4"
+    "react-redux": "^7.1.0",
+    "react-select": "^3.0.4",
+    "react-stepper-horizontal": "^1.0.11",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-forms": "^1.0.0-3",
+    "redux-wizard-form": "^1.0.0"
   },
   "keywords": [
     "gatsby"

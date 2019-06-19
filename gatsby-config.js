@@ -18,6 +18,18 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+      {
+        resolve: `gatsby-plugin-material-ui`,
+        // If you want to use styled components, in conjunction to Material-UI, you should:
+        // - Change the injection order
+        // - Add the plugin
+        options: {
+          // stylesProvider: {
+          //   injectFirst: true,
+          // },
+        },
+        // 'gatsby-plugin-styled-components',
+      },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
